@@ -1,0 +1,27 @@
+a::selection {
+     color: #33ff00;
+}
+a:hover{
+    color: rgb(211, 164, 255);
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+@media screen and (max-width: 699px) and (min-width: 199px){
+    body {
+        font-size: 8px;
+        padding: 50px;
+        background: rgb(104, 72, 72);
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1300px) and (min-width: 700px){
+    body {
+        font-size: 13px;
+        background: rgb(73, 73, 73);
+        padding: 50px;
+        width: 100%;
+    }
+}

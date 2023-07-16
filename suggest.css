@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color:#99A98F;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit{
+    background-color: #C1D0B5;
+    height: 300px;
+}
+.s{
+    margin: 0;
+    position: relative;
+    top:20px;
+}
+.form{
+    position: relative;
+    top: 80px;
+}
+.d{
+    font-size: 20px;
+}
+.bnmm{
+    margin-top: 15px;
+}
+#btn{
+    position: relative;
+    top: 30px;
+}

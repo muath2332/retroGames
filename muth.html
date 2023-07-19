@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="muth.css">
+    <title>Muath website</title>
+</head>
+<body>
+    <script async src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js" crossorigin="anonymous"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.esm.min.js"
+      }
+    }
+    </script>
+    <script type="module">
+      import * as bootstrap from 'bootstrap'
+
+      new bootstrap.Popover(document.getElementById('popoverButton'))
+    </script>
+    <section id="nav">
+      <nav class="navbar bg-danger" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="poker.png" alt="" width="50" height="50" class="img1"> Card Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-danger" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="poker.png" alt="" width="50" height="50" class="img1"> Card Games</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Yu-Gi-Oh</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pokemon</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      </section>
+      <section id="header">
+        <h2 class="h0">Card Games</h2>
+        <p class="h">A card game is any game using playing cards as the primary device with which the game is played, be they traditional or game-specific. Countless card games exist, including families of related games (such as poker). A small number of card games played with traditional decks have formally standardized rules with international tournaments being held, but most are folk games whose rules may vary by region, culture, location or from circle to circle.</p>
+      <hr>
+      </section>
+      <section id="tcg">
+        <h3 class="h0">TCG GAMES</h3>
+<div id="TCG" class="carousel slide">
+  <div id="TCG" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#TCG" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#TCG" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#TCG" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img class="zx" src="img\WhatsApp Image 2023-07-10 at 8.25.46 AM.jpeg"  width="40%" alt="Digimon-TCG">
+        <h3 class="w" id="w">Digimon-TCG</h3>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img class="zx" src="img\WhatsApp Image 2023-07-08 at 2.54.33 AM.jpeg"  width="40%" alt="Dragon-ball-TCG">
+        <h3 class="w" id="w">Dragon-Ball-TCG</h3>
+      </div>
+      <div class="carousel-item">
+        <img class="zx" src="img\WhatsApp Image 2023-07-16 at 10.09.08 PM.jpeg" width="40%" alt="One-piece-TCG">
+        <h3 class="w" id="w">One-Piece-TCG</h3>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#TCG" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#TCG" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<hr class="hr">
+      </section>
+      <section id="top3">
+        <h4 id="bad-games" class="h0">The worst 3 card games</h4>
+        <div class="row">
+          <div id="top3" class="col-lg-4 col-md-4 col-sm-12">
+              <a href="https://en.wikipedia.org/wiki/Gwent:_The_Witcher_Card_Game" target="_blank"><img src="https://www.playgwent.com/build/img/logo/logo-gwent-big-en-7c21928f.png" alt="Gwent" width="30%" id="kl" ></a>
+              <h3 id="kk">Gwent</h3>
+          </div>
+          <div id="top3" class="col-lg-4 col-md-4 col-sm-12">
+              <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg/1200px-Pok%C3%A9mon_Trading_Card_Game_logo.svg.png" alt="pokemon-tcg" width="35%" id="k"></a>
+      
+                  <h3 id="kk">Pokemon TCG</h3>
+          </div>
+          <div id="top3" class="col-lg-4 col-md-4 col-sm-12">
+              <a href="https://en.wikipedia.org/wiki/Magic:_The_Gathering" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/ru/4/46/Magic_The_Gathering_logo.png" alt="Magic-The gathering" width="30%" id="kl"></a>
+                  <h3 id="kk">Magic The Gathering</h3>
+          </div>
+      </div>
+      </section>
+</body>
+</html>
